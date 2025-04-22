@@ -37,18 +37,6 @@ document.addEventListener("keyup", (e) => {
   if (e.key === "ArrowDown") downPressed = false;
 });
 
-document.getElementById("p1-up").ontouchstart = () => wPressed = true;
-document.getElementById("p1-up").ontouchend = () => wPressed = false;
-
-document.getElementById("p1-down").ontouchstart = () => sPressed = true;
-document.getElementById("p1-down").ontouchend = () => sPressed = false;
-
-document.getElementById("p2-up").ontouchstart = () => upPressed = true;
-document.getElementById("p2-up").ontouchend = () => upPressed = false;
-
-document.getElementById("p2-down").ontouchstart = () => downPressed = true;
-document.getElementById("p2-down").ontouchend = () => downPressed = false;
-
 function drawPaddle(x, y) {
   ctx.fillStyle = "#ff6f00";
   ctx.fillRect(x, y, paddleWidth, paddleHeight);
