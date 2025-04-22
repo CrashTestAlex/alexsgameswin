@@ -44,3 +44,38 @@ canvas {
   background-color: #fff3e0;
   margin-top: 20px;
 }
+
+#mobileControls {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 14px 24px;
+  font-size: 18px;
+  background-color: #ffb300;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  touch-action: manipulation;
+}
+
+button:active {
+  background-color: #ff6f00;
+}
+
+@media (min-width: 768px) {
+  #mobileControls {
+    display: none;
+  }
+}
