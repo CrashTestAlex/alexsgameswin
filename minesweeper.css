@@ -21,11 +21,10 @@ h1 {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.easy-button {
+.difficulty-button {
   font-size: 20px;
   margin: 10px;
   padding: 10px 20px;
-  background-color: #40ed5a;
   color: white;
   border: none;
   border-radius: 10px;
@@ -33,40 +32,28 @@ h1 {
   transition: background-color 0.2s;
 }
 
-.easy-button:hover {
-  background-color: #72e883;
+#easy {
+  background-color: #aed581;
 }
 
-.medium-button {
-  font-size: 20px;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #eded5c;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.2s;
+#easy:hover {
+  background-color: #9ccc65;
 }
 
-.medium-button:hover {
-  background-color: #eded87;
+#medium {
+  background-color: #ffb74d;
 }
 
-.hard-button {
-  font-size: 20px;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #e34646;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.2s;
+#medium:hover {
+  background-color: #ffa726;
 }
 
-.hard-button:hover {
-  background-color: #e87272;
+#hard {
+  background-color: #ef5350;
+}
+
+#hard:hover {
+  background-color: #e53935;
 }
 
 #game-board {
