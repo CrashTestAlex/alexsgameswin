@@ -73,3 +73,18 @@ body {
 .cell:active {
   background-color: #ff6f00;
 }
+
+#flag-toggle {
+  font-size: 16px;
+  padding: 8px 20px;
+  background-color: #ffa000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#flag-toggle.active {
+  background-color: #d84315;
+}
