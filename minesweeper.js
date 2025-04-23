@@ -5,9 +5,7 @@ let flagMode = false;
 let gameOver = false;
 
 const gameBoard = document.getElementById("game-board");
-const difficultyButtons = document.querySelectorAll(".easy-button");
-const difficultyButtons = document.querySelectorAll(".medium-button");
-const difficultyButtons = document.querySelectorAll(".hard-button");
+const difficultyButtons = document.querySelectorAll(".difficulty-button");
 const flagToggleBtn = document.getElementById("flag-toggle");
 const restartBtn = document.getElementById("restart-button");
 
