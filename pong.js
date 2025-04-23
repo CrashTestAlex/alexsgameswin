@@ -9,7 +9,7 @@ let wPressed = false, sPressed = false;
 let upPressed = false, downPressed = false;
 
 const ballRadius = 8;
-let initialSpeed = 2;
+let initialSpeed = 5;
 let x, y, dx, dy;
 
 let leftScore = 0;
