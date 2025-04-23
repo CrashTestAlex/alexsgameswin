@@ -79,3 +79,52 @@ button:active {
     display: none;
   }
 }
+
+body {
+  background: linear-gradient(to right, #ffe082, #ffcc80);
+  font-family: 'Segoe UI', sans-serif;
+  color: #ff6f00;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.game-wrapper {
+  padding: 40px 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.glow-title {
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #ff6f00;
+  text-shadow: 0 0 10px #ffca28, 0 0 20px #ffa000;
+}
+
+#difficulty-selection {
+  margin-bottom: 20px;
+}
+
+.difficulty-button {
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ffb300;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.difficulty-button:hover {
+  background-color: #ffa000;
+}
+
+#game-board {
+  display: grid;
+  gap: 5px;
+  margin-top: 20px;
+  display: none; 
+}
